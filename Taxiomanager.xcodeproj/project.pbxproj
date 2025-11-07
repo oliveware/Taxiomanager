@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		098239A92EBCE7240017B252 /* Taxionomy in Frameworks */ = {isa = PBXBuildFile; productRef = 098239A82EBCE7240017B252 /* Taxionomy */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		098239952EBCE6940017B252 /* Taxiomanager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taxiomanager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098239A92EBCE7240017B252 /* Taxionomy in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = Taxiomanager;
 			packageProductDependencies = (
+				098239A82EBCE7240017B252 /* Taxionomy */,
 			);
 			productName = Taxiomanager;
 			productReference = 098239952EBCE6940017B252 /* Taxiomanager.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 0982398C2EBCE6940017B252;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				098239A72EBCE7240017B252 /* XCRemoteSwiftPackageReference "Taxionomy" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 098239962EBCE6940017B252 /* Products */;
 			projectDirPath = "";
@@ -370,6 +379,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		098239A72EBCE7240017B252 /* XCRemoteSwiftPackageReference "Taxionomy" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/oliveware/Taxionomy";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		098239A82EBCE7240017B252 /* Taxionomy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 098239A72EBCE7240017B252 /* XCRemoteSwiftPackageReference "Taxionomy" */;
+			productName = Taxionomy;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0982398D2EBCE6940017B252 /* Project object */;
 }

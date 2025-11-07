@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct TaxiomanagerApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: TaxiomanagerDocument()) { file in
+        DocumentGroup(newDocument: TaxionomyDocument()) { file in
             ContentView(document: file.$document)
         }
     }

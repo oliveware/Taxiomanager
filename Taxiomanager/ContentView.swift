@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
+import Taxionomy
 
 struct ContentView: View {
-    @Binding var document: TaxiomanagerDocument
+    @Binding var document: TaxionomyDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        //TextEditor(text: $document.text)
+        TaxionomyManager($document.taxionomy)
+            .frame(width:1400)
     }
 }
 
 #Preview {
-    ContentView(document: .constant(TaxiomanagerDocument()))
+    ContentView(document: .constant(TaxionomyDocument()))
 }

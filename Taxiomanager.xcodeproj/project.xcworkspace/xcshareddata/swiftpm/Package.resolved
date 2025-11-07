@@ -1,0 +1,15 @@
+{
+  "originHash" : "08d0b984c1afe29fa37f4a1f3908b4ffd591ea52e0dbc6a643620913090f01c9",
+  "pins" : [
+    {
+      "identity" : "taxionomy",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/oliveware/Taxionomy",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d455fbdfeecc8100a9fc99ea4b4024009ebcba46"
+      }
+    }
+  ],
+  "version" : 3
+}
