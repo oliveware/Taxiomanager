@@ -18,8 +18,11 @@ extension UTType {
 nonisolated struct TaxionomyDocument: FileDocument {
     var taxionomy: Taxionomy
 
-    init() {
-        taxionomy = Taxionomy(taxionomie2)
+    init () {
+        taxionomy = Taxionomy()
+    }
+    init(_ json:String) {
+        taxionomy = Taxionomy(json)
     }
 
     static let readableContentTypes = [

@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         //TextEditor(text: $document.text)
         TaxionomyManager($document.taxionomy)
-            .frame(width:1400)
+            .frame(width:1000)
     }
 }
 
