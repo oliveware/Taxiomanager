@@ -10,9 +10,12 @@ import Taxionomy
 
 struct ContentView: View {
     @Binding var document: TaxionomyDocument
+    @State var selected = 0
+    @State var fonction = Taxion()
+    @State var equipement = ""
+    var mot = Mot("truc","trucs",.m)
 
     var body: some View {
-        //TextEditor(text: $document.text)
         TaxionomyManager($document.taxionomy)
             .frame(width:1000)
     }
